@@ -1,0 +1,95 @@
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+} */
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 120px;
+  z-index: 1;
+  right: 0;
+  top: 6vh;
+  border-radius: 10px;
+  overflow: Hidden;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+.list-category:hover {
+  background-color: rgba(206, 212, 218, 0.3) !important;
+  border-radius: 5px;
+}
+
+.shopping-cart__items::-webkit-scrollbar {
+  display: none;
+}
+
+.shopping-cart .shopping-cart__items {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.secondary-placeholder::placeholder {
+  color: #c4c4c4;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .input-group-lg {
+    height: 50px !important;
+  }
+
+  .card-img-product {
+    height: 10rem !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .btn-fixed-wa {
+    width: 7vh !important;
+    height: 7vh !important;
+  }
+
+  .fa-whatsapp {
+    font-size: 5vh !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .input-group-banner {
+    height: 6vh !important;
+  }
+  .input-group-banner input::placeholder {
+    font-size: 20px !important;
+  }
+
+  .text-about-us {
+    font-size: 20px !important;
+  }
+}
